@@ -11,12 +11,20 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "@gauseen/nuxt-proxy": "^1.0.1",
+    "@nuxt/config": "^2.11.0",
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "@nuxtjs/dotenv": "^1.4.0"
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^8.2.0",
+    "nuxt": "^2.0.0",
+    "typescript": "^3.8.3",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "@nuxtjs/vuetify": "^1.0.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
